@@ -44,7 +44,7 @@ routes.delete('/incidents/:id', IncidentController.delete);
 routes.get('/profile', ProfileController.index);
 
 //SESSION
-routes.post('/session', SessionController.create);
+routes.post('/sessions', SessionController.create);
 
 
 //EXPORTANTO AS ROTAS
